@@ -1,0 +1,259 @@
+/*Header*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #DFDFDF;
+}
+.fase1{
+	width: 100%;
+	height: 140px;
+	background-color: #009688;
+	}
+.container {
+	width: 80%;
+	height: 600px;
+	background-color: #EEEEEE;
+	position: relative;
+	top: -125px;
+}
+.caja {
+	border-right: 3px solid #DFDFDF;
+	width: 100%;
+	background-color: #eeeeee;
+}
+.caja1 {
+	border-bottom: 3px solid #DFDFDF;
+}
+.img {
+	border-radius: 50px;
+	width: 12%;
+	margin-left: 3%;
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+.imagencilla{
+	width: 35px;
+	height: 35px;
+   float: left;
+   	margin-left: 3%;
+	margin-top: 1%;
+	border-radius: 50px;
+}
+.img1 {
+	width: 8%;
+   float: left;
+   	margin-left: 3%;
+	margin-top: 1%;
+	border-radius: 50px;
+}
+.img2 {
+   width: 50px;
+   height: 50px;
+   float: left;
+   	margin-left: 2%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	border-radius: 50px;
+}
+.parrafoprincipal {
+	margin-left: 13%;
+	padding-top: 2%;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+}
+.parrafo {
+	padding-top: 1%;
+	margin-left: 13%;
+	font-family: sans-serif;
+	font-size: 13px;
+	color: gray;
+}
+.iconos {
+	float: right;
+	margin-right: 6%;
+	margin-top: 6%;
+}
+.icon-dots-three-vertical {
+	margin-left: 10%;
+	padding-left: 60%;
+}
+.iconos1 {
+	float: right;
+	margin-right: 6%;
+	margin-top: 3%;
+}
+.action {
+	margin: 2%;
+	width: 100%;
+}
+.buscador {
+	margin-top: 1%;
+	width: 95%;
+	padding: 2% 0;
+}
+.Search {
+	width: 100%;
+	padding-bottom: 1%;
+}
+.cajilla {
+	border-top: 1px solid #DFDFDF;
+	background-color: white;
+}
+.without {
+     padding-left: 0;
+}
+.big {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 517px;
+	margin-bottom: 2%;
+}
+.big::-webkit-scrollbar {
+    width: 6px;
+}
+.big::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+.big::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.time {
+	font-size: 12px;
+	font-family: sans-serif;
+	color: gray;
+	position: relative;
+	right: -365px;
+	top: -32px;
+}
+.three{
+	position: relative;
+	margin-left: -5%;
+}
+/*terminado*/
+.bigger {
+	background: url("../image/chat-panel-bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 539px;
+	width: 100%;
+	background-color: #eeeeee;
+	padding: 0;
+	position: relative;
+	bottom: -5%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.bigger::-webkit-scrollbar {
+    width: 6px;
+}
+.bigger::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+.bigger::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.caja1 {
+	background-color: #eeeeee;
+}
+.fondo {
+	background-color: #eeeeee;
+}
+.manejo {
+  padding-bottom: 3%;
+}
+.chateo {
+  margin-top: 3%;
+}
+ul li {
+   text-decoration: none;
+   display: block;
+}
+.right {
+background-color: white;
+width: 51%;
+margin-left: 5%;
+position: relative;
+bottom: -3%;
+font-size: 13px;
+}
+.true {
+	margin-top: 1%;
+}
+.parrafo1 {
+	padding-top: 2%;
+	margin-left: 5%;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: gray;
+}
+.sn {
+	position: relative;
+	right: -350px;
+	width: 27%;
+	background-color: #DBF8C5;
+	border-radius: 10px;
+	padding-top: 1%;
+}
+.chatting{
+    font-size: 11px;
+}
+.time1{
+  position: relative;
+  right: -87%;
+  font-family: sans-serif;
+  font-size: 10px;
+  color: gray;
+}
+.time2{
+  position: relative;
+  right: -80%;
+  font-family: sans-serif;
+  font-size: 11px;
+  color: gray;
+}
+.color {
+	color: #A9DCF4;
+	font-weight: bold;
+}
+.purple {
+	color: #ED9AC8;
+	font-weight: bold;
+}
+.orange {
+	 color: #E9CF7B;
+	 font-weight: bold;
+}
+i {
+	padding: 0 3% 0 3%;
+}
+.formulario {
+	margin: 0;
+	width: 100%;
+	padding-top: 1%;
+	background: #eeeeee;
+	position: relative;
+	left: -1%;
+}
+.final {
+	width: 99%;
+	position: relative;
+	left: -4%;
+	border: none !important;
+	background-color: #EEEEEE;
+} 
+.chat  {
+	margin-bottom: 1%;
+	padding: 0.5%;
+	width: 82%;
+}
+.finish {
+	background: #EEEEEE;
+}
